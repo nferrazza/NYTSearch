@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>NYT SEARCH</title>
+</head>
+<body>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+
+    <div class=“jumbotron jumbotron-fluid”>
+            <div class=“container”>
+              <h1 class=“display-4”>New York Times Search</h1>
+            </div>
+           </div><br><br>
+
+           <form>
+                <div class="form-group">
+                    Search Parameters<br><hr>
+                  <label for="searchTerms">Search Term: </label>
+                  <input type="searchTerm" class="form-control" id="searchTerm" aria-describedby="emailHelp" placeholder="Keywords..."><br>
+                  
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Number of Records to Retrieve: </label>
+                  <input type="searchTerm" class="form-control" id="exampleInputPassword1" placeholder="ex: 5, 10, etc...">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Start Year (Optional): </label>
+                    <input type="searchTerm" class="form-control" id="exampleInputPassword1" placeholder="Year Start">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputPassword1">End Year (Optional): </label>
+                    <input type="searchTerm" class="form-control" id="exampleInputPassword1" placeholder="Year End">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Search</button>
+                <input type="reset" value="Clear Results" onClick="window.location.reload()" class="btn btn-primary"></input>
+              </form>
+</body>
+</html>
